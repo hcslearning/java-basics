@@ -70,6 +70,42 @@ Overriding is the process of **providing a new implementation** for a **method t
 ### Overloading
 Overloading is the process of creating **multiple methods with the same name but different parameters**. Java determines which method to use based on the type and number of parameters passed to the method.
 
+## Exceptions
+
+In Java, an exception is an event that occurs during the execution of a program that disrupts the normal flow of the program's instructions. When an exception occurs, the program terminates abnormally and an error message is displayed.
+
+Exceptions can be caused by a variety of factors, such as invalid user input, hardware errors, or programming mistakes. Java provides a robust system for handling exceptions through the use of try-catch blocks.
+
+The try block contains the code that might throw an exception, while the catch block contains the code that handles the exception if it is thrown. If an exception is thrown within the try block, Java looks for a corresponding catch block that can handle that particular exception. If no catch block is found, the program terminates and an error message is displayed.
+
+Java also provides a hierarchy of exception classes, with the most general exception class being "Exception". This allows for more specific exceptions to be caught and handled separately from more general exceptions. This enables programmers to write more robust and fault-tolerant code by handling exceptions in a controlled and systematic way.
+
+### Exceptions Types
+
+https://www.youtube.com/watch?v=bCPClyGsVhc
+
+In Java, there are two main types of exceptions: checked exceptions and unchecked exceptions.
+
+#### Checked exceptions 
+Checked exceptions are exceptions that are checked by the compiler at compile-time. They are typically caused by external factors that are beyond the control of the program, such as I/O errors, network errors, or file errors.
+Examples of checked exceptions in Java include:
+
+- IOException
+- SQLException
+- ClassNotFoundException
+- InterruptedException
+
+#### Unchecked exceptions 
+Unchecked exceptions are exceptions that are not checked by the compiler at compile-time, and instead occur at runtime. They are typically caused by programming mistakes, such as null pointer dereference, division by zero, or array index out of bounds.
+
+Examples of unchecked exceptions in Java include (inherited from **RuntimeException**):
+
+- NullPointerException
+- ArithmeticException
+- ArrayIndexOutOfBoundsException
+- IllegalArgumentException
+
+In addition to these two main types, Java also provides a hierarchy of exception classes, with the most general exception class being "Exception". This allows for more specific exceptions to be caught and handled separately from more general exceptions, providing greater flexibility and control over exception handling in Java programs.
 
 
 ## Memory Optimizations Advices 
