@@ -50,6 +50,27 @@ In summary, the heap space in Java is where objects are stored, and it is divide
 
 ![Behavioral Design Patterns](./assets/design-patterns--behavioral.png)
 
+## Java Concepts
+
+### Inheritance
+In Java, inheritance allows a **subclass** to inherit the properties and behaviors of a **superclass**. This means that the subclass can use all the methods and variables of the superclass, as well as any additional methods and variables that it defines. Inheritance is achieved through the use of the **"extends"** keyword in Java.
+
+### Polymorphism
+Polymorphism is the ability of objects to take on many forms. In Java, polymorphism is achieved **through the use of inheritance and interfaces**. Polymorphism **allows objects of different classes to be treated as if they were objects of the same class**, which can make code more flexible and easier to maintain.
+
+### Abstract Classes
+An abstract class is a class that **cannot be instantiated**, but **can be used as a template** for other classes. Abstract classes can contain both concrete methods and abstract methods, which must be implemented by any subclass that extends the abstract class.
+
+### Interfaces
+An interface is a **collection of abstract methods** that define a **contract** for implementing classes. In Java, a class can implement multiple interfaces, which allows for greater flexibility and code reuse.
+
+### Overriding
+Overriding is the process of **providing a new implementation** for a **method that already exists** in a superclass or interface. When a method is overridden in a subclass, the subclass method takes precedence over the superclass method.
+
+### Overloading
+Overloading is the process of creating **multiple methods with the same name but different parameters**. Java determines which method to use based on the type and number of parameters passed to the method.
+
+
 
 ## Memory Optimizations Advices 
 
