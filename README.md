@@ -6,11 +6,11 @@
 
 ### Call Stack
 
-The call stack in Java is a data structure used by the Java Virtual Machine (JVM) to keep track of method calls during the execution of a program. It is a LIFO (Last-In-First-Out) stack where each method call is added to the top of the stack, and when a method returns, it is removed from the top of the stack.
+The call stack in Java is a data structure used by the Java Virtual Machine (JVM) to **keep track of method calls during the execution** of a program. It is a LIFO (Last-In-First-Out) stack where each method call is added to the top of the stack, and when a method returns, it is removed from the top of the stack.
 
 ### Stack 
 
-In Java, the stack is a region of memory that is used to store method calls and local variables. Each thread in a Java program has its own stack, which is used to manage method calls and to store local variables for those methods.
+In Java, the stack is a region of memory that is used to **store method calls and local variables**. Each thread in a Java program has its own stack, which is used to manage method calls and to store local variables for those methods.
 
 When a method is called, a new frame is added to the top of the stack to hold the method's local variables, its parameters, and its return address. The return address is the address of the instruction to execute after the method returns.
 
@@ -24,7 +24,7 @@ In summary, the stack in Java is a region of memory that is used to manage metho
 
 ### Heap 
 
-In Java, the heap is a region of memory that is used to store objects and is managed by the Java Virtual Machine (JVM). The heap space is divided into two areas: the young generation and the old generation.
+In Java, the heap is a region of **memory that is used to store objects** and is managed by the Java Virtual Machine (JVM). The heap space is divided into two areas: the young generation and the old generation.
 
 The young generation is where new objects are created, and it is further divided into two areas: the Eden space and the survivor spaces. The Eden space is where new objects are created, and the survivor spaces are used to hold objects that have survived one or more garbage collection cycles.
 
