@@ -55,9 +55,9 @@ In summary, the heap space in Java is where objects are stored, and it is divide
 
 Memory optimization is an important aspect of Java programming, as it can greatly improve the performance and scalability of a program. Here are some tips for optimizing memory usage in Java:
 
-1. Use efficient data structures: Choose the appropriate data structure for your program's needs, taking into account the data size, access patterns, and operations performed on the data. For example, using an ArrayList instead of a LinkedList for large collections can save memory and improve performance.
+1. **Use efficient data structures**: Choose the appropriate data structure for your program's needs, taking into account the data size, access patterns, and operations performed on the data. For example, using an ArrayList instead of a LinkedList for large collections can save memory and improve performance.
 
-1. Avoid creating unnecessary objects: Objects consume memory, and creating too many unnecessary objects can cause the garbage collector to work harder, leading to longer pause times and decreased performance. Use object pooling or caching to reuse objects instead of creating new ones.
+1. **Avoid creating unnecessary objects**: Objects consume memory, and creating too many unnecessary objects can cause the garbage collector to work harder, leading to longer pause times and decreased performance. Use object pooling or caching to reuse objects instead of creating new ones.
 
 1. **Use primitive types instead of objects**: Primitive types consume less memory than their corresponding object types. For example, using int instead of Integer can save memory.
 
